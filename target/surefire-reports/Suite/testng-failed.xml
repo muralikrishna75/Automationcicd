@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="ErrorValidations(failed)" verbose="0">
+    <classes>
+      <class name="MuraliKrishnaSG.Tests.ErrorValidations">
+        <methods>
+          <include name="launchapplication"/>
+          <include name="ProductValidatione"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- MuraliKrishnaSG.Tests.ErrorValidations -->
+    </classes>
+  </test> <!-- ErrorValidations(failed) -->
+  <test thread-count="5" parallel="tests" name="StandaloneTest(failed)" verbose="0">
+    <classes>
+      <class name="MuraliKrishnaSG.Tests.StandaloneTest">
+        <methods>
+          <include name="OrderHistory"/>
+          <include name="launchapplication"/>
+          <include name="submitorder" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- MuraliKrishnaSG.Tests.StandaloneTest -->
+    </classes>
+  </test> <!-- StandaloneTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
