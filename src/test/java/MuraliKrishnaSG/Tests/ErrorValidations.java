@@ -29,14 +29,14 @@ public class ErrorValidations extends BaseTest {
 
 	@Test(groups= {"ErrorValidation"},retryAnalyzer=Retry.class)
 	public void LoginError() {
-		LandingPageObj.LaunchingApp("krishna75@gmail.com", "xyxabc");//Krishn1a57
+		LandingPageObj.LaunchingApp("krishna75@gmail.com", "XYZABC");//Krishn1a57
 		String error = LandingPageObj.geterrormessages();
 		//System.out.println(error);
-		//Assert.assertEquals(error, "Incorrect email or password.");
+		Assert.assertEquals(error, "Incorrect email or password.");
 	}
 	@Test
 	public void ProductValidatione() throws InterruptedException {
-	ProductCatlogue ProductCatlogueobj = LandingPageObj.LaunchingApp("krishna75@gmail.com", "xyxabc");
+	ProductCatlogue ProductCatlogueobj = LandingPageObj.LaunchingApp("krishna75@gmail.com", "Krishn1a57");
 	String Productname = "IPHONE 13 PRO";
 	List<WebElement> products = ProductCatlogueobj.getproductsList();
 	ProductCatlogueobj.getproductByname(Productname);
