@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MuraliKrishnaSG.Tests.StandaloneTest">
+      <class name="MuraliKrishnaSG.Tests.ErrorValidations">
         <methods>
-          <include name="OrderHistory"/>
           <include name="launchapplication"/>
-          <include name="submitorder"/>
+          <include name="ProductValidatione"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- MuraliKrishnaSG.Tests.StandaloneTest -->
+      </class> <!-- MuraliKrishnaSG.Tests.ErrorValidations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

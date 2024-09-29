@@ -36,7 +36,7 @@ public class ErrorValidations extends BaseTest {
 	}
 	@Test
 	public void ProductValidatione() throws InterruptedException {
-	ProductCatlogue ProductCatlogueobj = LandingPageObj.LaunchingApp("krishna75@gmail.com", "Krishn1a57");
+	ProductCatlogue ProductCatlogueobj = LandingPageObj.LaunchingApp("krishna75@gmail.com", "Krishna57");
 	String Productname = "IPHONE 13 PRO";
 	List<WebElement> products = ProductCatlogueobj.getproductsList();
 	ProductCatlogueobj.getproductByname(Productname);
