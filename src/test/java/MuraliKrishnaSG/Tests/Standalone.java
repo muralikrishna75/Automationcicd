@@ -31,6 +31,7 @@ public class Standalone {
 		 * Iterator<WebElement> h= element.iterator(); while(h.hasNext()) {
 		 * System.out.println(h.next().findElement(By.tagName("b")).getText());
 		 */
+		//checking webhook working
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
 		List<WebElement> products = driver.findElements(By.cssSelector(".mb-3"));
