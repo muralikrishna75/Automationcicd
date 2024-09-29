@@ -6,6 +6,7 @@
       <class name="MuraliKrishnaSG.Tests.ErrorValidations">
         <methods>
           <include name="launchapplication"/>
+          <include name="LoginError"/>
           <include name="ProductValidatione"/>
           <include name="teardown"/>
         </methods>

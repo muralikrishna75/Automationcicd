@@ -5,6 +5,7 @@
     <classes>
       <class name="MuraliKrishnaSG.Tests.StandaloneTest">
         <methods>
+          <include name="OrderHistory"/>
           <include name="launchapplication"/>
           <include name="submitorder"/>
           <include name="teardown"/>
