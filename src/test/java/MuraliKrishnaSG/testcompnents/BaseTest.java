@@ -43,7 +43,7 @@ public class BaseTest {
 		prop.load(fis);
 		String browserName=System.getProperty("browser")!=null?System.getProperty("browser"):prop.getProperty("browser");
 		//String browserName = prop.getProperty("browser");
-		if (browserName.contains("c hrome")) {
+		if (browserName.contains("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options= new ChromeOptions();
 			if (browserName.contains("headless")) {
